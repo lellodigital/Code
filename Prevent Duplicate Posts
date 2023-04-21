@@ -1,5 +1,5 @@
 //For when you have 2 or more posts blocks on a page and don't want the same post to appear twice.
-//This also works on a single post page and you have a more news block in the footer:
+//This also works on a single post page and you have a "more news" block in the footer:
 
 add_filter('post_link', 'track_displayed_posts');
 add_action('pre_get_posts','remove_already_displayed_posts'); 
